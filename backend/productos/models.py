@@ -6,3 +6,6 @@ class Producto(models.Model):
     descripcion = models.TextField()
     precio = models.FloatField()
     stock = models.IntegerField()
+
+    def __str__(self):
+        return self.nombre

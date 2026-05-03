@@ -1,0 +1,31 @@
+Manuel Usuario Testing
+
+Usuario de prueba: Prueba3
+usuario: Prueba3
+contraseña: duoc123
+
+Fecha: 03-05-2026
+Hora inicio: 14:30
+Hora término: 14:40
+
+
+PASOS:
+
+1. Ingresar a http://127.0.0.1:8000/
+2. Presionar "Login"
+3. Ingresar credenciales
+4. Visualizar lista de productos
+5. Seleccionar un producto
+6. Presionar "Agregar al carrito"
+7. Ir a "Ver carrito"
+8. Validar productos agregados y total
+9. Revisar vista API
+
+RESULTADO:
+✔ Login funcional
+✔ Productos básicos visibles + información del producto
+✔ Carrito funcional
+✔ API externa funcionando
+
+OBSERVACION:
+El sistema cumple con funcionalidades básicas del MVP.

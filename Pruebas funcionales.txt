@@ -1,0 +1,16 @@
+PRUEBAS FUNCIONALES
+
+Caso: Agregar producto al carrito
+Resultado esperado: Producto aparece en carrito
+Resultado obtenido: Sin problemas
+Tiempo: 30 seg
+
+Caso: Login usuario
+Resultado esperado: Acceso permitido
+Resultado obtenido: Correcto
+Tiempo: 30 seg
+
+Caso: Ver información del producto
+Resultado esperado: Lleva a detalles del producto
+Resultado: Correcto
+Tiempo: 20 seg

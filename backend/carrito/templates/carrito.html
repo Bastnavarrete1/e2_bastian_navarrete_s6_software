@@ -1,0 +1,26 @@
+<h1>Carrito de compras</h1>
+
+<div>
+    <a href="/">← Volver a productos</a>
+</div>
+
+{% if items %}
+    {% for i in items %}
+        <div style="border:1px solid #ccc; padding:10px; margin:10px 0; border-radius:8px;">
+            
+            <h3>{{ i.producto.nombre }}</h3>
+            
+            <p>Precio: ${{ i.producto.precio }}</p>
+            <p>Cantidad: {{ i.cantidad }}</p>
+            <p>Subtotal: ${{ i.producto.precio|floatformat:0 }} x {{ i.cantidad }}</p>
+            <a href="/restar/{{ i.id }}/">-</a>
+
+        </div>
+    {% endfor %}
+{% else %}
+    <p>No hay productos en el carrito</p>
+{% endif %}
+
+<hr>
+
+<h2>Total a pagar: ${{ total }}</h2>
